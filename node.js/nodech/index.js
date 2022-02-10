@@ -7,7 +7,7 @@
 
 const fs = require( 'fs' )
 
-// fs.mkdirSync( "Binita" );
+fs.mkdirSync( "Binita" );
 
 fs.writeFileSync( "./bio.txt", "Bio means 'life,' and gives rise mostly to words from the realm of the 'life' sciences." )
 //adding more data to the same text file without overriding existing data
@@ -23,8 +23,8 @@ console.log( data );
 
 fs.renameSync( "./bio.txt", "./New_Bio.txt" );
 
-//Deleting the file and folder
-//file
-// fs.unlinkSync( "./New_Bio.txt" );
-//folder
-// fs.rmdirSync( "Binita" );
+// Deleting the file and folder
+// file
+fs.unlinkSync( "./New_Bio.txt" );
+// folder
+fs.rmdirSync( "Binita" );
