@@ -1,0 +1,1 @@
+The options argument may be omitted. If provided, it should be an object.et exist. data can be a string or a Buffer.
